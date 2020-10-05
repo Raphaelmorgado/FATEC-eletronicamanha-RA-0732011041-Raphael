@@ -1,0 +1,13 @@
+/*conversao de numeros decimais em octal e hexadecimal */
+
+
+#include <stdio.h>
+
+int main(void) {
+  int x ; 
+  x=100;
+  printf("Nro decimal:%d\t",x);//mostra o valor 20 em decimal
+  printf("Nro octal:%o\t",x);//mostra o valor 20 em octal
+  printf("Nro hexadecimal:%x\t",x);//mostra o valor 20 em hexadecimal
+  return 0;
+}
