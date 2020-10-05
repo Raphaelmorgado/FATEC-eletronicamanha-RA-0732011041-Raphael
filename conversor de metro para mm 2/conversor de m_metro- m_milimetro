@@ -1,0 +1,22 @@
+/* 
+Programa: Conversor metro_Milimetro
+Descr: Converte de metro para milimetro
+Autor Raphael Morgado Silva 
+Data criada 05/10/2020
+*/
+
+
+
+#include <stdio.h>
+int main(void) {
+  int e_metro, s_milimetro;
+// entrada do valor em metros 
+
+  printf("Entre com valor em metros:");
+  scanf("%d",&e_metro);
+//conversor de metros para milimetro 
+   s_milimetro =1000 * e_metro;
+// saida de milimetro 
+   printf("Valor em milimetros:%d[mm]", s_milimetro);
+  return 0;
+}
